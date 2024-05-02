@@ -127,6 +127,17 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </motion.button>
         </form>
+        <div className="flex items-center justify-center gap-4 mt-8">
+          <a href="https://github.com/jasverma-hub" className="text-white hover:text-gray-300">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+          <a href="https://www.linkedin.com/in/jasvermadataengineer/" className="text-white hover:text-gray-300">
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+          <a href="https://twitter.com/home" className="text-white hover:text-gray-300">
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          </a>
+        </div>
       </motion.div>
 
       <motion.div
